@@ -14,8 +14,7 @@ class CategorySerializer(serializers.ModelSerializer):
         fields = ('name', 'slug')
 
     def create(self, validated_data):
-        category = Category.objects.create(**validated_data)
-        return category
+        return Category.objects.create(**validated_data)
 
 
 class CommentSerializer(serializers.ModelSerializer):
@@ -40,8 +39,7 @@ class GenreSerializer(serializers.ModelSerializer):
         fields = ('name', 'slug')
 
     def create(self, validated_data):
-        genre = Genre.objects.create(**validated_data)
-        return genre
+        return Genre.objects.create(**validated_data)
 
 
 class TitleSerializer(serializers.ModelSerializer):

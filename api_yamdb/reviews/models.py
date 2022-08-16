@@ -2,7 +2,6 @@ from datetime import date
 
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
-
 from users.models import User
 
 
@@ -82,8 +81,8 @@ class GenreTitle(models.Model):
         ]
 
     def __str__(self):
-        return f'GenreTitle {self.pk}, title {self.title},' \
-               f'genre {self.genre}.'
+        return (f'GenreTitle {self.pk}, title {self.title},'
+                f'genre {self.genre}.')
 
 
 class Review(models.Model):
