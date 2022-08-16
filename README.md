@@ -1,6 +1,9 @@
 
 # Infra_sp2 #
 
+![Build Status](https://github.com/Stepan-Solnyshkin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+
 ## Описание: ##
 
 
