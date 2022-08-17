@@ -3,6 +3,8 @@
 
 ![Build Status](https://github.com/Stepan-Solnyshkin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+Проект доступен по адресу http://84.252.140.210/admin
+
 ## Описание: ##
 
 
