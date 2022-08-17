@@ -11,7 +11,7 @@ class AdminOnly(permissions.BasePermission):
 
 
 class OnlyOwnAccount(permissions.BasePermission):
-    """Класс проверяет, что пользователь является автором."""
+    """Класс проверяет, что пользователь является автором1."""
 
     def has_object_permission(self, request, view, obj):
         return obj.user == request.user

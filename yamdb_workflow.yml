@@ -41,7 +41,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: nypnyp/yamdb_final:latest
+          tags: nypnyp/yamdb_final_1:latest
           file: api_yamdb/Dockerfile
 
   deploy:
