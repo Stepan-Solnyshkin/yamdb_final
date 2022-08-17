@@ -42,7 +42,6 @@ jobs:
         with:
           push: true
           tags: nypnyp/yamdb_final_1:latest
-          file: api_yamdb/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
