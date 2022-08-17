@@ -1,5 +1,5 @@
 
-# Infra_sp2 #
+# Yamdb_final #
 
 ![Build Status](https://github.com/Stepan-Solnyshkin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
@@ -16,7 +16,7 @@
 
 ```
 bash
-git clone https://github.com/Stepan-Solnyshkin/infra_sp2
+git clone https://github.com/Stepan-Solnyshkin/yamdb_final
 ```
 ### Шаблон .env файла:
 *Создать .env файл нужно внутри директории infra/ (на одном уровне с docker-compose.yaml*
